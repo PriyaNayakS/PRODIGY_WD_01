@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PLaces in Mangalore</title>
+</head>
+
+<body>
+    <div id="content"></div>
+    <nav>
+        <div class="navbar" id="nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#places">Places</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+        <section id="home" class="home">
+            <h1> Welcome to Mangalore</h1>
+            <div  class="mng">
+            <img src="mang.jpg" alt="manglore" class="mng">
+        </div>
+        <div class="button-container">
+            <a href="#places">
+                <button class="btn">Explore!</button>
+            </a>
+            
+        </div>
+        </section>
+        <section id="places" class="places">
+            <header>
+                <h2 class="pl">Places to visit</h2>
+                
+            </header>
+            <div class="container">
+                <div class="item">
+                    <img src="kudroli.jpg" alt="kudroli" id="kud">
+                    <h3>KUDROLI</h3>
+                </div>
+                <div class="item">
+                    <img src="panambur.jpg" alt="beach" id="beach">
+                    <h3>PANAMBUR BEACH</h3>
+                </div>
+                <div class="item">
+                    <img src="chapel.jpg" alt="church" id="chap">
+                    <h3>CHAPEL CHURCH</h3>
+                </div>
+                <div class="item">
+                    <img src="sultan.jpg" alt="battery" id="sul">
+                    <h3>SULTAN BATTERY</h3>
+                </div>
+                <div class="item">
+                    <img src="polali.jpg" alt="polali" id="pol">
+                    <h3>POLALI TEMPLE</h3>
+                </div>
+                <div class="item">
+                    <img src="light.jpg" alt="lighthouse" id="lig">
+                    <h3>LIGHT HOUSE</h3>
+                </div>
+            </div>
+            
+        </section>
+        <section id="contact" class="contacts">
+            <h1>Contact</h1>
+            <div>
+                <h3>Get in Touch</h3>
+                <p>Email: info@mangalore-tourism.com</p>
+                <p>Phone: 09901690555</p>
+                
+            </div>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
